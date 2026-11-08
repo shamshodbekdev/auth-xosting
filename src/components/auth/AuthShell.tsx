@@ -23,11 +23,8 @@ export function AuthShell({ title, subtitle, children }: AuthShellProps) {
       <aside className="relative hidden overflow-hidden border-r border-white/5 bg-surface lg:flex lg:flex-col lg:justify-between lg:p-12 xl:p-16">
         <AuroraBackground />
 
-        <a href="https://xosting.net" className="relative z-10 inline-flex w-fit items-center gap-3">
-          <Image src="/logo.png" alt="xosting.net logo" width={44} height={44} priority className="h-11 w-11 object-contain" />
-          <span className="text-2xl font-bold tracking-tight">
-            xosting<span className="text-primary-400">.net</span>
-          </span>
+        <a href="https://xosting.net" className="relative z-10 inline-flex w-fit items-center">
+          <Image src="/logo-full.png" alt="xosting.net" width={600} height={130} priority className="h-10 w-auto object-contain" />
         </a>
 
         <div className="relative z-10 max-w-lg">
@@ -72,11 +69,8 @@ export function AuthShell({ title, subtitle, children }: AuthShellProps) {
           transition={{ duration: 0.6, ease: "easeOut" }}
           className="relative w-full max-w-md"
         >
-          <a href="https://xosting.net" className="mb-8 inline-flex items-center gap-2.5 lg:hidden">
-            <Image src="/logo.png" alt="xosting.net logo" width={36} height={36} className="h-9 w-9 object-contain" />
-            <span className="text-xl font-bold tracking-tight">
-              xosting<span className="text-primary-400">.net</span>
-            </span>
+          <a href="https://xosting.net" className="mb-8 inline-flex items-center lg:hidden">
+            <Image src="/logo-full.png" alt="xosting.net" width={600} height={130} priority className="h-9 w-auto object-contain" />
           </a>
 
           <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">{title}</h1>

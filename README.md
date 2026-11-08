@@ -18,7 +18,7 @@ This project serves as the central authentication gateway for xosting.net, provi
 ## 🛠️ Tech Stack
 
 - **Framework**: Next.js 15 (App Router, Webpack)
-- **Language**: TypeScript
+- **Language**: TypeScripte
 - **Styling**: Tailwind CSS (Custom theme)
 - **Form Handling**: React Hook Form + Zod
 - **Animations**: Framer Motion
